@@ -1,3 +1,29 @@
 h1{
     color:hsl(210, 13%, 20%);
+    background-color:#d8a48f ;
+    padding: 15px;
+    border:4px solid darkslategrey;
+    margin: 20xp 10xp 25xp 10xp;
+    text-align: center;
+}
+body{
+    background-color: #efebce;
+    text-align: center;
+}
+a:link{
+    color:#fe938c;
+    text-decoration: none;
+    text-align: center;
+}
+a:visited{
+    color:#ad91a3;
+    text-decoration: none;
+}
+a:hover{
+    color:#545775;
+    text-decoration: underline;
+}
+a:active{
+    color:#718f94;
+    text-decoration: underline;
 }
