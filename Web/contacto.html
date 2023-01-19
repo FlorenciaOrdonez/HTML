@@ -24,6 +24,26 @@
     <a href="mailto:florenciaordonezarquitectura@gmail.com?subject=Contacto&body=prueba email">Enviar email</a>
     </p>
     <hr/>
+    <h2>Completa tu Formulario</h2>
+    <form method="post" action="mi_servidor" target="_blank">
+        <fieldset>
+            <legend>NUEVO PROYECTO</legend>
+                <div class="formulario"><label>Qué deseas:</label><br/>
+                <input type="checkbox" id="Cotizar tu proyecto" name="Qué deseas" value="cotizacion"/
+                <label for="cotizar tu proyecto">Cotizar tu proyecto</label><br/>
+                <input type="checkbox" id="Consultar por sistema constuctivo" name="Qué deseas" value="sistema constructivo"/
+                <label for="consultar por sistema constructivo">Consultar por sistema constructivo</label><br/>
+                <input type="checkbox" id="Saber más de nuestros proyectos" name="Qué deseas" value="proyectos"/
+                <label for="saber más de nuestros proyectos">Saber más de nuestros proyectos</label><br/><br/></div>
+                <div class="formulario"><label for="nombre">Nombre:</label><br/>
+                <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required="true"/><br/></div>
+                <div class="formulario"><label for="email">Email:</label><br/>
+                <input type="email" id="email" name="email" placeholder="Escribe tu email" required="true"/><br/></div>
+                <div class="formulario"><label for="tu mensaje">Tu mensaje:</label><br/>
+                <textarea id="mensaje" name="mensaje" rows="2" cols="40"></textarea><br/></div>
+                <input type="submit" value="Enviar"/>
+    </fieldset>
+    </form>
     <br/><br/>
     <a href="index.html">Volver al Inicio</a>   
 </body>
