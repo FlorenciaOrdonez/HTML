@@ -56,6 +56,10 @@ h2{
 body{
     background-color: #efebce;
     text-align: center;
+    background-image: url(/Imagenes/fotofondo.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 a:link{
@@ -96,7 +100,7 @@ td{
 }
 
 div{
-    background-color: #84a59d;
+    background-color: rgb(132, 164, 156, .8);
     text-align: center;
     border-collapse: collapse;
     font-size: 16px; 
