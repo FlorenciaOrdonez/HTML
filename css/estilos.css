@@ -1,15 +1,22 @@
+@import url('https://fonts.googleapis.com/css2? family= Quicksand:wght@300 & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
 header{
     color:hsl(210, 13%, 20%);
-    background-color:#d8a48f ;
+    background-color:rgb(227, 169, 146, .7) ;
     padding: 20px;
     margin: 20xp 10xp 25xp 10xp;
     text-align: center;
-    font-family:sans-serif;
+    font-family:'Quicksand', sans-serif;
+    text-shadow: 2px 2px 2px #717374;
+    letter-spacing: 5px;
+    font-variant: small-caps;
+    font-size: 23px;
 }
 
 h1{
     color:hsl(210, 13%, 20%);
-    background-color:#d8a48f ;
+    background-color:rgb(216, 164, 143,.8) ;
     padding: 15px;
     border:4px solid;
     border-color: rgba(47, 79, 79, 0.69) #cfcac85a;
@@ -17,6 +24,8 @@ h1{
     margin: 20xp 10xp 25xp 10xp;
     text-align: center;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 2px 2px 2px #717374;
+    letter-spacing: 5px;
 }
 
 ul{
@@ -46,11 +55,14 @@ li a:hover{
 
 h2{
     color:#eae1df;
-    text-decoration: underline;
-    background-color: #ad91a3;
+    background-color: rgb(173, 145, 163, .8);
     padding: 10px 20px;
     margin: 20px, 150px 20px, 150px;
     text-align: center;
+    text-shadow: 1px 1px 2px #717374;
+    letter-spacing: 4px;
+    font-size: 30px;
+    font-family: 'Quicksand', sans-serif;
 }
 
 body{
@@ -69,7 +81,7 @@ a:link{
 }
 
 a:visited{
-    color:#ad91a3;
+    color:#767074;
     text-decoration: none;
 }
 
@@ -112,7 +124,7 @@ div{
 }
 
 .tarjeta{
-    background-color: #d6ce93;
+    background-color: rgb(214, 206, 147, .7);
     text-align: center;
     border-collapse: collapse;
     font-size: 16px; 
@@ -144,7 +156,7 @@ legend{
 
 footer{
     clear:both;
-    color:#8e9aaf;
+    color:#606875;
     font-family: sans-serif;
     letter-spacing: 5px;
 }
